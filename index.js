@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 const port = process.env.PORT || 2023
 
 mongoose.set('strictQuery', false);
-mongoose.connect('mongodb+srv://ranjith:ranjith0910@cluster0.eqvmchj.mongodb.net/STUDENTEXAM')
+mongoose.connect('mongodb+srv://ranjith:ranjith0910@ranjithuse.uvgvbam.mongodb.net/STUDENTEXAM')
 .then(() => console.log('Connected to MongoDB...✨✨'))
 .catch(err => console.error('Could not connect to MongoDB... '+err.message));
 
